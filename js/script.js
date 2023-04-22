@@ -33,13 +33,13 @@ function printWrite(){
     
 function menuFr(){
     document.write(
-        '<ul><li><a href="index.html">Présentation</a></li><li><a href="today.html">Aujourd\'hui</a></li><li><a href="history.html">Historique</a></li><li><a href="project.html">Projets</a></li><li><a href="Contact.html">Contact</a></li></ul>'
+        '<ul><li><a href="index.html">Présentation</a></li><li><a href="today.html">Aujourd\'hui</a></li><li><a href="history.html">Historique</a></li><li><a href="project.html">Projets</a></li><li><a href="contact.html">Contact</a></li></ul>'
       );
 }
 
 function menuGb(){
     document.write(
-        '<ul><li><a href="index.html">Presentation</a></li><li><a href="today.html">Today</a></li><li><a href="history.html">History</a></li><li><a href="project.html">Projects</a></li><li><a href="Contact.html">Contact</a></li></ul>'
+        '<ul><li><a href="index.html">Presentation</a></li><li><a href="today.html">Today</a></li><li><a href="history.html">History</a></li><li><a href="project.html">Projects</a></li><li><a href="contact.html">Contact</a></li></ul>'
     );
 }
 
