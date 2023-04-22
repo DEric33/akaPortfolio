@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/script.js"></script>
     <title>Portfolio de Eric Darmusié</title>
   </head>
   <body>
@@ -12,13 +13,9 @@
       <map>
         <script type="text/javascript">
           if (navigator.language === "fr") {
-            document.write(
-              '<ul><li><a href="index.html">Présentation</a></li><li><a href="today.html">Aujourd\'hui</a></li><li><a href="history.html">Historique</a></li><li><a href="project.html">Projets</a></li><li><a href="Contact.html">Contact</a></li></ul>'
-            );
+            menuFr()
           }else{
-            document.write(
-              '<ul><li><a href="index.html">Presentation</a></li><li><a href="today.html">Today</a></li><li><a href="history.html">History</a></li><li><a href="project.html">Projects</a></li><li><a href="Contact.html">Contact</a></li></ul>'
-            );
+            menuGb()
           }
         </script>
       </map>
@@ -26,13 +23,9 @@
     <main>
       <script type="text/javascript">
         if (navigator.language === "fr") {
-          document.write(
-            "<h1>Eric Darmusié</h1><h2>A propos de moi</h2><p>Si je vous dis gwbasic, je vous téléporte au début des années 80. <br>C'est à cette période que l'informatique m'a adopté.<br>Pas de GitHub à l'époque, ni de cloud. Mes lignes de code sont reparties au-delà du virtuel.<br>Eloigné de la programmation pendant une décennie, j'ai à coeur de réactualiser mes compétences.<br>Développer est une activité passionnante, dés lors que a créativité y conserve une place raisonnable.</p>"
-          );
+          presFr()
         } else {
-          document.write(
-            "<h1>Eric Darmusié</h1><h2>About me</h2><p>If I tell you gwbasic, I teleport you to the early 80s. <br>It was during this period that the IT adopted me.<br>No GitHub at the time, nor cloud. My lines of code went beyond the virtual.<br>Away from programming for a decade, I care to update my skills.<br>Developing is an exciting activity, as long as there is a reasonable place for creativity.</p>"
-          );
+          presGb()
         }
       </script>
     </main>

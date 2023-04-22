@@ -1,3 +1,8 @@
+main{
+    max-width: 90%;
+    min-width: 200px;
+}
+
 body{
     background-color: aquamarine;
 }
@@ -6,10 +11,16 @@ h1{
 
 }
 
+/* encadrement */
 .talk{
-    background-color: red;
-    border-style: dashed;
+    background-color: rgb(114, 163, 236);
+    border-style:groove;
     border-color: bisque;
+}
+
+.talk a{
+    color: #000;
+    text-decoration: none;
 }
 
 /* Imges */
@@ -19,4 +30,18 @@ h1{
 
 .logo{
     height: 30px;
+    margin: auto; 
+}
+
+.logoUnit{
+    display: inline-block;
+    width: 130px;
+    margin: auto; 
+    text-align: center;
+}
+
+.logoList{
+    display: inline-block;
+    width: 130px;
+
 }

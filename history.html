@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
     <title>Portfolio de Eric Darmusié</title>
 </head>
-
 <body>
-
     <head>
         <map>
-            <ul>
-                <li><a href="index.html">Présentation</a></li>
-                <li><a href="today.html">Aujourd'hui</a></li>
-                <li><a href="history.html">Historique</a></li>
-                <li><a href="project.html">Projets</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
+            <script type="text/javascript">
+              if (navigator.language === "fr"){
+                menuFr()
+              }else{
+                menuGb()
+              }
+            </script>
         </map>
     </head>
     <main>
@@ -30,18 +28,18 @@
             ne m'a jamais passioné.</p>
         <p>Si mariaDB se trouve dans cette section, c'est parce qu'elle a accompagné la montée en compétence de php
             au fil du temps. Et de mariaDB à SQL, le lien est fait.</p>
-        <h2>Borland C<br>
+        <h2 class="logoUnit">Borland C<br>
             <img src="../img/borlandC.png" alt="Borlanc C" class="logo">
         </h2>
-        <h2>Delphi<br>
+        <h2 class="logoUnit">Delphi<br>
             <img src="../img/delphi.png" alt="Delphi" class="logo">
         </h2>
-        <h2>MariaDB<br>
+        <h2 class="logoUnit">MariaDB<br>
             <img src="../img/mariaDB.png" alt="MariaDB C" class="logo">
         </h2>
-        <h2>SQL<br>
-            <!--<img src="../img/sql.png" alt="SQL" class="logo"></h2>-->
-        <h2>Visual Basic<br>
+        <h2 class="logoUnit">SQL<br>
+            <img src="../img/sql.png" alt="SQL" class="logo"></h2>
+        <h2 class="logoUnit">Visual Basic<br>
             <img src="../img/VBasic.jpg" alt="Visual Basic" class="logo">
         </h2>
     </main>
