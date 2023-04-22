@@ -1,21 +1,66 @@
+header{
+    max-width: 90%;
+    margin:auto;
+}
+
 main{
     max-width: 90%;
     min-width: 200px;
+    margin:auto;
+}
+
+footer{
+    max-width: 90%;
+    margin:auto;
 }
 
 body{
     background-color: aquamarine;
 }
 
+p{
+    text-align: justify;
+}
+
 h1{
 
 }
 
+/* menu */
+ul{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    width: 150px;
+}
+
+li a:hover{
+    background-color:forestgreen;
+    color: #fff;
+}
+
+.printContact{
+   /* display: flexbox;  */
+    margin: 0;
+}
+
+.contact{
+    margin: 0;
+    display: inline-block;  */
+  /*  display:inline-flex;
+ /* justify-content: space-around;*/
+    width: 49%;
+}
+
 /* encadrement */
 .talk{
+    /*margin: 0;*/
     background-color: rgb(114, 163, 236);
     border-style:groove;
     border-color: bisque;
+    width: 380px;
 }
 
 .talk a{

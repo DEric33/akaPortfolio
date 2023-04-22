@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" src="js/script.js"></script>
     <title>Portfolio de Eric Darmusié</title>
-</head>
-<body>
-    <head>
-        <map>
-            <script type="text/javascript">
-              if (navigator.language === "fr") {
-                menuFr()
-              }else{
-                menuGb()
-              }
-            </script>
-          </map>
-            </head>
+  </head>
+  <body>
+    <header>
+      <map>
+        <script type="text/javascript">
+          if (navigator.language === "fr") {
+            menuFr();
+          } else {
+            menuGb();
+          }
+        </script>
+      </map>
+    </header>
     <main>
-        <h1>Contact</h1>
-        <img src="../img/ed.png" alt="EDarmusié" class="photo">
-<p class="talk">
-        LinkedIn :
- <script type="text/javascript">
-    printLinked()
-    </script>
-</p>
-<p class="talk">
-    Téléphone :  
-<script type="text/javascript">
-    printPhone()
-    </script>
-</p>
-<p class="talk">
-Email : <!-- <= formulaire -->
-<script type="text/javascript">
-    printWrite()
-    </script>
-    </p>
-
-<!-- <h2>Formulaire</h2>
+      <h1>Contact</h1>
+      <div class="printContact">
+        <div class="contact">
+          <img src="../img/ed.png" alt="EDarmusié" class="photo" />
+        </div>
+        <div class="contact">
+          <p class="talk">
+            LinkedIn :
+            <script type="text/javascript">
+              printLinked();
+            </script>
+          </p>
+          <p class="talk">
+            Téléphone :
+            <script type="text/javascript">
+              printPhone();
+            </script>
+          </p>
+          <p class="talk">
+            Email :
+            <!-- <= formulaire -->
+            <script type="text/javascript">
+              printWrite();
+            </script>
+          </p>
+        </div>
+      </div>
+      <!-- <h2>Formulaire</h2>
 <form method="put" action="send.php">
     <label for="objet">Objet : </label><input type="text" name="objet" id="objet"><br>
     <label for="nom">Nom : </label><input type="text" name="nom" id="nom"><br>
@@ -50,11 +56,7 @@ Email : <!-- <= formulaire -->
     <label for="message">Communication : </label><input type="text" name="message" id="message"><br>
     <input type="submit" value="Envoyer">
 </form> -->
-
-
-</main>
-    <footer>
-
-    </footer>
-</body>
+    </main>
+    <footer></footer>
+  </body>
 </html>
