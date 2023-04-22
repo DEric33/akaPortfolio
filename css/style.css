@@ -12,6 +12,7 @@ main{
 footer{
     max-width: 90%;
     margin:auto;
+    text-align: right;
 }
 
 body{
