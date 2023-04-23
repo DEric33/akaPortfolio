@@ -1,26 +1,75 @@
-header{
-    max-width: 90%;
-    margin:auto;
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px) {
+    p {
+        color: #333533;
+     /*   background-color: black;*/
+        font-size: 1.2em;
+    }
+
+    header{
+        max-width: 90%;
+        margin:auto;
+    }
+    
+    main{
+       max-width: 90%;
+      /*   min-width: 200px;*/
+        margin:auto;
+    }
+    
+    footer{
+        max-width: 90%;
+        margin:auto;
+    }
+      
 }
 
-main{
-    max-width: 90%;
-    min-width: 200px;
-    margin:auto;
+@media screen and (min-width: 1024px) {
+    p {
+        color: #333533;
+      /*  background-color: black;*/
+        font-size: 1.2em;
+    }
+
+    header{
+        max-width: 50%;
+        margin:auto;
+    }
+    
+    main{
+       max-width: 50%;
+      /*   min-width: 200px;*/
+        margin:auto;
+    }
+    
+    footer{
+        max-width: 50%;
+        margin:auto;
+    }
+     
 }
 
-footer{
-    max-width: 90%;
-    margin:auto;
-    text-align: right;
+header, main, footer{
+    background-color: #e8eddf;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 0px;
 }
 
 body{
-    background-color: aquamarine;
+    background-color: #cfdbd5;
 }
 
 p{
     text-align: justify;
+    margin: 1em;
+}
+
+p.foot{
+    width: 50%;
+    text-align: right;
 }
 
 h1{
@@ -38,7 +87,7 @@ li{
 }
 
 li a:hover{
-    background-color:forestgreen;
+    background-color:#f5cb5c;
     color: #fff;
 }
 
@@ -48,20 +97,20 @@ li a:hover{
 }
 
 .contact{
-    margin: 0;
-    display: inline-block;  */
+    margin: auto;
+    display: inline-block;  
   /*  display:inline-flex;
- /* justify-content: space-around;*/
-    width: 49%;
+ /* justify-content: space-around;
+    width: 49%;*/
 }
 
 /* encadrement */
 .talk{
-    /*margin: 0;*/
+    /*margin: 0;
     background-color: rgb(114, 163, 236);
     border-style:groove;
     border-color: bisque;
-    width: 380px;
+    width: 380px;*/
 }
 
 .talk a{
