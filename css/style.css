@@ -1,8 +1,6 @@
-/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 @media screen and (max-width: 1024px) {
     p {
         color: #333533;
-     /*   background-color: black;*/
         font-size: 1.2em;
     }
 
@@ -13,8 +11,7 @@
     
     main{
        max-width: 90%;
-      /*   min-width: 200px;*/
-        margin:auto;
+       margin:auto;
     }
     
     footer{
@@ -27,7 +24,6 @@
 @media screen and (min-width: 1024px) {
     p {
         color: #333533;
-      /*  background-color: black;*/
         font-size: 1.2em;
     }
 
@@ -38,8 +34,7 @@
     
     main{
        max-width: 50%;
-      /*   min-width: 200px;*/
-        margin:auto;
+       margin:auto;
     }
     
     footer{
@@ -72,10 +67,6 @@ p.foot{
     text-align: right;
 }
 
-h1{
-
-}
-
 /* menu */
 ul{
     display: inline-block;
@@ -92,27 +83,15 @@ li a:hover{
 }
 
 .printContact{
-   /* display: flexbox;  */
     margin: 0;
 }
 
 .contact{
     margin: auto;
     display: inline-block;  
-  /*  display:inline-flex;
- /* justify-content: space-around;
-    width: 49%;*/
 }
 
 /* encadrement */
-.talk{
-    /*margin: 0;
-    background-color: rgb(114, 163, 236);
-    border-style:groove;
-    border-color: bisque;
-    width: 380px;*/
-}
-
 .talk a{
     color: #000;
     text-decoration: none;
@@ -138,5 +117,4 @@ li a:hover{
 .logoList{
     display: inline-block;
     width: 130px;
-
 }
